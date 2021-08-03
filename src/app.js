@@ -1,8 +1,8 @@
 import React from 'react';
-
+import Home from './components';
 const App = () => {
     return (
-        <h1>Hello world</h1>
+        <Home />
     )
 }
 
