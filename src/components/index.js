@@ -1,7 +1,9 @@
 import React from 'react'
 import { createGlobalStyle } from "styled-components";
 import constructionImage from '../images/undraw_under_construction_46pa.svg'
+
 import { ImageWrapper } from './styles'
+
 const GlobalStyle = createGlobalStyle`
     body{
         margin: 0;
