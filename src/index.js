@@ -1,10 +1,10 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import App from './app'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Home from './components';
 
 
 
 ReactDOM.render(
-  <App />,
+  <Home />,
   document.getElementById('root')
 );
