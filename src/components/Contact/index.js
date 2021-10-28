@@ -1,9 +1,10 @@
 import React from 'react'
 
-export default function Contact() {
+const Contact = () => {
     return (
-        <div>
-            
-        </div>
+        <h1>this is the contact section</h1>
     )
 }
+
+
+export default Contact;
