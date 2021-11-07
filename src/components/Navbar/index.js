@@ -1,6 +1,6 @@
 import { 
     NavbarHeader,
-    NavbarSection,
+    NavbarWrapper,
     NavbarLogo,
     NavbarItems
     } from "./NavbarElements";
@@ -9,7 +9,7 @@ import {
 const Navbar = () => {
     return (
        <NavbarHeader>
-           <NavbarSection>
+           <NavbarWrapper>
                 <NavbarLogo></NavbarLogo>
                 <NavbarItems>
                     <ul>
@@ -18,7 +18,7 @@ const Navbar = () => {
                         <li>Contact</li>
                     </ul>
                 </NavbarItems>
-           </NavbarSection>
+           </NavbarWrapper>
        </NavbarHeader>
     )
 }
