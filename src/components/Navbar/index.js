@@ -1,6 +1,25 @@
+import { 
+    NavbarHeader,
+    NavbarSection,
+    NavbarLogo,
+    NavbarItems
+    } from "./NavbarElements";
+    
+
 const Navbar = () => {
     return (
-        <h1>fuck off gull koni</h1>
+       <NavbarHeader>
+           <NavbarSection>
+                <NavbarLogo></NavbarLogo>
+                <NavbarItems>
+                    <ul>
+                        <li>About</li>
+                        <li>Projects</li>
+                        <li>Contact</li>
+                    </ul>
+                </NavbarItems>
+           </NavbarSection>
+       </NavbarHeader>
     )
 }
 
