@@ -6,13 +6,23 @@ export const NavbarHeader = styled.header`
     padding: 0;
 `
 export const NavbarWrapper = styled.div`
-    display: flex;
-    justify-content: center;
+    background: #5624d0;
+    height: 75px;
+    padding: 0px 10px;
 `
 export const NavbarLogo = styled.div`
 
 `
 
 export const NavbarItems = styled.nav`
-
+    ul {
+        margin: 0;
+        display: flex;
+        padding-top: 30px;
+        li {
+            list-style: none;
+            padding-left: 20px;
+            color: white;
+        }
+    }
 `
