@@ -1,6 +1,6 @@
 const Navbar = () => {
     return (
-        <h1>this is Navbar</h1>
+        <h1>fuck off gull koni</h1>
     )
 }
 
