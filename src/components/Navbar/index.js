@@ -1,3 +1,4 @@
+import { Outlet, Link } from "react-router-dom";
 import { 
     NavbarHeader,
     NavbarWrapper,
@@ -13,11 +14,12 @@ const Navbar = () => {
                 <NavbarLogo></NavbarLogo>
                 <NavbarItems>
                     <ul>
-                        <li>About</li>
-                        <li>Projects</li>
-                        <li>Contact</li>
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/projects">Projects</Link></li>
+                        <li><Link to="/contact">Contact</Link></li>
                     </ul>
                 </NavbarItems>
+                <Outlet />
            </NavbarWrapper>
        </NavbarHeader>
     )
