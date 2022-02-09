@@ -2,7 +2,6 @@ import { Outlet, Link } from "react-router-dom";
 import { 
     NavbarHeader,
     NavbarWrapper,
-    NavbarLogo,
     NavbarItems
     } from "./NavbarElements";
     
@@ -11,7 +10,6 @@ const Navbar = () => {
     return (
        <NavbarHeader>
            <NavbarWrapper>
-                <NavbarLogo></NavbarLogo>
                 <NavbarItems>
                     <ul>
                         <li><Link to="/">Home</Link></li>
