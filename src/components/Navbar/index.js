@@ -12,19 +12,21 @@ import {
 
 const Navbar = () => {
     return (
-       <NavbarHeader>
-           <NavbarWrapper>
-                <NavbarItems>
-                    <ul>
-                        <li><Link to="/">Home <FaHomeIcon /></Link></li>
-                        <li><Link to="/about">About <BsFillPersonFillIcon /></Link></li>
-                        <li><Link to="/projects">Projects <BsFillBriefcaseFillIcon /></Link></li>
-                        <li><Link to="/contact">Contact <RiMailOpenFillIcon /></Link></li>
-                    </ul>
-                </NavbarItems>
-                <Outlet />
-           </NavbarWrapper>
-       </NavbarHeader>
+        <> 
+            <NavbarHeader>
+                <NavbarWrapper>
+                        <NavbarItems>
+                            <ul>
+                                <li><Link to="/"><span>Home</span> <FaHomeIcon /></Link></li>
+                                <li><Link to="/about"><span>About</span> <BsFillPersonFillIcon /></Link></li>
+                                <li><Link to="/projects"><span>Projects</span> <BsFillBriefcaseFillIcon /></Link></li>
+                                <li><Link to="/contact"><span>Contact</span> <RiMailOpenFillIcon /></Link></li>
+                            </ul>
+                        </NavbarItems>
+                </NavbarWrapper>
+            </NavbarHeader>
+            <Outlet />
+        </>
     )
 }
 

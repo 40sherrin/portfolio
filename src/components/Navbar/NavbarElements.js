@@ -7,6 +7,11 @@ import { RiMailOpenFill } from "react-icons/ri";
 export const NavbarHeader = styled.header`
     position: fixed;
     right: 30px;
+    bottom: 0%;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 200px);
 `
 export const NavbarWrapper = styled.div`
     background: transparent;
