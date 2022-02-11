@@ -17,10 +17,10 @@ const Navbar = () => {
                 <NavbarWrapper>
                         <NavbarItems>
                             <ul>
-                                <li><Link to="/"><span>Home</span> <FaHomeIcon /></Link></li>
-                                <li><Link to="/about"><span>About</span> <BsFillPersonFillIcon /></Link></li>
-                                <li><Link to="/projects"><span>Projects</span> <BsFillBriefcaseFillIcon /></Link></li>
-                                <li><Link to="/contact"><span>Contact</span> <RiMailOpenFillIcon /></Link></li>
+                                <li><Link to="/"><span>Home</span> <FaHomeIcon className="icon-menu" /></Link></li>
+                                <li><Link to="/about"><span>About</span> <BsFillPersonFillIcon className="icon-menu" /></Link></li>
+                                <li><Link to="/projects"><span>Projects</span> <BsFillBriefcaseFillIcon className="icon-menu" /></Link></li>
+                                <li><Link to="/contact"><span>Contact</span> <RiMailOpenFillIcon className="icon-menu" /></Link></li>
                             </ul>
                         </NavbarItems>
                 </NavbarWrapper>
