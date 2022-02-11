@@ -1,13 +1,15 @@
 import styled from "styled-components";
-import { AiOutlineHome } from "react-icons/ai";
+import { FaHome } from "react-icons/fa";
+import { BsFillPersonFill, BsFillBriefcaseFill } from "react-icons/bs";
+import { RiMailOpenFill } from "react-icons/ri";
 
 
 export const NavbarHeader = styled.header`
-    margin: 0;
-    padding: 0;
+    position: fixed;
+    right: 30px;
 `
 export const NavbarWrapper = styled.div`
-    background: #5624d0;
+    background: transparent;
     height: 75px;
     padding: 0px 10px;
 `
@@ -23,4 +25,16 @@ export const NavbarItems = styled.nav`
             color: white;
         }
     }
+`
+export const FaHomeIcon = styled(FaHome)`
+    font-size: 2rem;
+`
+export const BsFillPersonFillIcon = styled(BsFillPersonFill)`
+    font-size: 2rem;
+`
+export const BsFillBriefcaseFillIcon = styled(BsFillBriefcaseFill)`
+    font-size: 2rem;
+`
+export const RiMailOpenFillIcon = styled(RiMailOpenFill)`
+    font-size: 2rem;
 `

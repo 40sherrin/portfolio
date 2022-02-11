@@ -16,6 +16,8 @@ const GlobalStyle = createGlobalStyle`
         padding: 0;
         box-sizing: border-box;
         font-family: sans-serif;
+        background: #000;
+        color: #fff;
     }
 `
 

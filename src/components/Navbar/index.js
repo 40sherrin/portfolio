@@ -2,7 +2,11 @@ import { Outlet, Link } from "react-router-dom";
 import { 
     NavbarHeader,
     NavbarWrapper,
-    NavbarItems
+    NavbarItems,
+    FaHomeIcon,
+    BsFillPersonFillIcon,
+    BsFillBriefcaseFillIcon,
+    RiMailOpenFillIcon
     } from "./NavbarElements";
     
 
@@ -12,9 +16,10 @@ const Navbar = () => {
            <NavbarWrapper>
                 <NavbarItems>
                     <ul>
-                        <li><Link to="/">Home</Link></li>
-                        <li><Link to="/projects">Projects</Link></li>
-                        <li><Link to="/contact">Contact</Link></li>
+                        <li><Link to="/">Home <FaHomeIcon /></Link></li>
+                        <li><Link to="/about">About <BsFillPersonFillIcon /></Link></li>
+                        <li><Link to="/projects">Projects <BsFillBriefcaseFillIcon /></Link></li>
+                        <li><Link to="/contact">Contact <RiMailOpenFillIcon /></Link></li>
                     </ul>
                 </NavbarItems>
                 <Outlet />
