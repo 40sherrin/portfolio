@@ -1,6 +1,6 @@
 const Intro = () => {
     return (
-        <h1>this is the intro sections</h1>
+        <h2>Hello intro</h2>
     )
 }
 

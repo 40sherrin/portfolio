@@ -47,6 +47,7 @@ export const NavbarItems = styled.nav`
                 color: #fff;
                 line-height: 50px;
                 font-weight: 500;
+                letter-spacing: 2.5px;
                 transition: all .3s;
                 border-radius: 30px;
                 text-transform: uppercase;
