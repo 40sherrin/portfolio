@@ -11,13 +11,15 @@ export const Container = styled.section `
 export const ImageWrapper = styled.div`
     grid-area: ImageSvg;
     background-color: #FFB400;
-    clip-path: polygon(0 0, 73% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 44% 0, 69% 100%, 0% 100%);
     height: 100vh;
+    position: relative;
 `
 export const PersonImage = styled.img.attrs({
     src: `${PersonSvg}`
 })`
-    max-width: 
+    max-width: 400px;
+    top: 100px;
 `
 export const IntroTextContainer = styled.div`
     grid-area: IntroText;
