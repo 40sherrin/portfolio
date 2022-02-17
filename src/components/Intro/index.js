@@ -11,9 +11,7 @@ const Intro = () => {
         <Container>
             <ImageWrapper>
                 <PersonImageSection>
-                    <PersonInfo>
-                        
-                    </PersonInfo>
+                    <PersonInfo />
                 </PersonImageSection>
             </ImageWrapper>
             <IntroTextContainer>

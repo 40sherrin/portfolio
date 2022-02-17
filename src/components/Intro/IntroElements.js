@@ -33,9 +33,15 @@ export const PersonImageSection = styled.div`
     top: 40px;
     box-shadow: 0 0 7px rgb(0 0 0 / 90%);
     position: relative;
+    overflow: hidden;
 `
 export const PersonInfo = styled.div`
-
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(0deg,rgb(0 0 0) 0%,rgb(0 0 0) 0%,rgb(0 212 255 / 0%) 100%,rgb(255 180 0 / 0%) 100%);
+    padding-bottom: 100%;
+   
 ` 
 export const IntroTextContainer = styled.div`
     grid-area: IntroText;
