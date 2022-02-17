@@ -10,9 +10,7 @@ const Intro = () => {
     return (
         <Container>
             <ImageWrapper>
-                <PersonImageSection>
-                    <PersonInfo />
-                </PersonImageSection>
+                <PersonImageSection />
             </ImageWrapper>
             <IntroTextContainer>
                 <IntroHeader>I'm Fareed Askari <span>Front End Developer</span></IntroHeader>
