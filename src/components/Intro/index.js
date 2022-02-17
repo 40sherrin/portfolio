@@ -3,13 +3,18 @@ import {
     ImageWrapper,
     IntroHeader,
     IntroTextContainer,
-    PersonImage
+    PersonImageSection,
+    PersonInfo
 } from "./IntroElements";
 const Intro = () => {
     return (
         <Container>
             <ImageWrapper>
-                <PersonImage />
+                <PersonImageSection>
+                    <PersonInfo>
+
+                    </PersonInfo>
+                </PersonImageSection>
             </ImageWrapper>
             <IntroTextContainer>
                 <IntroHeader>I'm Fareed Askari <span>Front End Developer</span></IntroHeader>

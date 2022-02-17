@@ -1,26 +1,42 @@
 import styled from "styled-components";
-import PersonSvg from '../../images/bannerTwo.svg'
+import PersonImage from '../../images/profileImage.jpg';
 
 
 export const Container = styled.section `
     display: grid;
-    grid-template-areas: "ImageSvg IntroText IntroText";
+    grid-template-areas: "ImageSvg IntroText";
     margin: 0px !important;
     padding: 0px !important;
 `
 export const ImageWrapper = styled.div`
     grid-area: ImageSvg;
-    background-color: #FFB400;
-    clip-path: polygon(0 0, 44% 0, 69% 100%, 0% 100%);
-    height: 100vh;
+    ::after {
+        content: "";
+        position: absolute;
+        background-color: #ffb400;
+        height: 200%;
+        width: 100%;
+        transform: rotate(-15deg);
+        left: -83%;
+        top: -50%;
+    }
+`
+export const PersonImageSection = styled.div`
+    background-image: url(${PersonImage});
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: calc(100vh - 80px);
+    z-index: 111;
+    border-radius: 30px;
+    left: 40px;
+    top: 40px;
+    box-shadow: 0 0 7px rgb(0 0 0 / 90%);
     position: relative;
 `
-export const PersonImage = styled.img.attrs({
-    src: `${PersonSvg}`
-})`
-    max-width: 400px;
-    top: 100px;
-`
+export const PersonInfo = styled.div`
+
+` 
 export const IntroTextContainer = styled.div`
     grid-area: IntroText;
 `
