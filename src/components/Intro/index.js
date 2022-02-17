@@ -12,7 +12,7 @@ const Intro = () => {
             <ImageWrapper>
                 <PersonImageSection>
                     <PersonInfo>
-
+                        
                     </PersonInfo>
                 </PersonImageSection>
             </ImageWrapper>

@@ -20,7 +20,6 @@ export const NavbarHeader = styled.header`
 export const NavbarWrapper = styled.div`
     background: transparent;
 `
-
 export const NavbarItems = styled.nav`
     margin: 0;
     padding: 0;
