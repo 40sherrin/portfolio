@@ -26,6 +26,7 @@ export const PersonImageSection = styled.div`
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    width: 80%;
     height: calc(100vh - 80px);
     z-index: 111;
     border-radius: 30px;

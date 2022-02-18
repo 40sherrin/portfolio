@@ -4,7 +4,6 @@ import {
     IntroHeader,
     IntroTextContainer,
     PersonImageSection,
-    PersonInfo
 } from "./IntroElements";
 const Intro = () => {
     return (
