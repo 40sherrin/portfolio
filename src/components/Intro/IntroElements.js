@@ -38,12 +38,39 @@ export const PersonImageSection = styled.div`
 `
 export const IntroTextContainer = styled.div`
     grid-area: IntroText;
+    max-width: 550px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+`
+export const IntroTextWrapper = styled.div`
+
 `
 export const IntroHeader = styled.h1`
-
+    color: #ffb400;
+    font-size: 51px;
+    line-height: 62px;
+    font-weight: 700;
+    margin: 18px 0 10px;
+    position: relative;
+    text-transform: uppercase;
+    display: inline-block;
+    ::before {
+        content: '';
+        position: absolute;
+        background-color: #ffb400;
+        left: -65px;
+        top: 29px;
+        height: 4px;
+        width: 40px;
+        border-radius: 10px;
+    }
 `
 export const IntroPara = styled.p`
-
+    margin: 15px 0 28px;
+    font-size: 16px;
+    line-height: 35px;
 `
 export const IntroReadMore = styled.div`
 
