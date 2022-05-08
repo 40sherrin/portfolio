@@ -10,8 +10,6 @@ import {
     BiRightArrowAltIcon
 } from "./IntroElements";
 
-import downloadImage from "./../../images/fareedaskari.jpg";
-
 
 const Intro = () => {
     return (
