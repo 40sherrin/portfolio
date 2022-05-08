@@ -7,10 +7,7 @@ import {
     IntroTextWrapper,
     IntroPara,
     MoreAboutMeButton,
-    BiRightArrowAltIcon,
-    FaShopifyIcon,
-    FaUmbracoIcon,
-    SiKenticoIcon
+    BiRightArrowAltIcon
 } from "./IntroElements";
 
 

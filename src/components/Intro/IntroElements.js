@@ -2,9 +2,6 @@ import styled from "styled-components";
 import PersonImage from '../../images/fareedaskari.jpg';
 import { BiRightArrowAlt } from "react-icons/bi";
 import { Link } from "react-router-dom";
-import { FaShopify, FaUmbraco } from "react-icons/fa";
-import { SiKentico } from "react-icons/si";
-
 
 export const Container = styled.section `
     display: grid;
@@ -50,25 +47,6 @@ export const IntroTextContainer = styled.div`
 `
 export const IntroTextWrapper = styled.div`
 
-`
-
-export const FaShopifyIcon = styled(FaShopify)`
-    background: #ffb400;
-    font-size: 16px;
-    padding: 10px;
-    border-radius: 50%;
-`
-export const FaUmbracoIcon = styled(FaUmbraco)`
-    background: #ffb400;
-    font-size: 16px;
-    padding: 10px;
-    border-radius: 50%;
-`
-export const SiKenticoIcon = styled(SiKentico)`
-    background: #ffb400;
-    font-size: 16px;
-    padding: 10px;
-    border-radius: 50%;
 `
 export const IntroHeader = styled.h1`
     color: #ffb400;
