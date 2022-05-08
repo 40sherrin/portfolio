@@ -91,3 +91,4 @@ export const RiMailOpenFillIcon = styled(RiMailOpenFill)`
     font-size: 19px;
     color: white;
 `
+

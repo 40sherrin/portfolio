@@ -6,7 +6,14 @@ import {
     PersonImageSection,
     IntroTextWrapper,
     IntroPara,
+    MoreAboutMeButton,
+    BiRightArrowAltIcon,
+    FaShopifyIcon,
+    FaUmbracoIcon,
+    SiKenticoIcon
 } from "./IntroElements";
+
+
 const Intro = () => {
     return (
         <Container>
@@ -15,11 +22,14 @@ const Intro = () => {
             </ImageWrapper>
             <IntroTextContainer>
                 <IntroTextWrapper>
-                    <IntroHeader>I'm Fareed Askari.</IntroHeader>
+                    <IntroHeader>I'm Fareed Askari. <span>Web Developer</span></IntroHeader>
                     <IntroPara>
-                        I'm a front-end developer focused on
-                        crafting clean & user-friendly experiences,
+                        I'm a self-tuaght software designer / developer, mainly working / developing with / for [Shopify, Umbraco, Kentico] 
                     </IntroPara>
+                    <MoreAboutMeButton to="/about">
+                        <span>more about me</span>
+                        <BiRightArrowAltIcon />
+                    </MoreAboutMeButton>
                 </IntroTextWrapper>
             </IntroTextContainer>
         </Container>
