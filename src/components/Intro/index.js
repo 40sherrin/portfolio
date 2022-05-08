@@ -10,6 +10,8 @@ import {
     BiRightArrowAltIcon
 } from "./IntroElements";
 
+import downloadImage from "./../../images/fareedaskari.jpg";
+
 
 const Intro = () => {
     return (
@@ -21,7 +23,7 @@ const Intro = () => {
                 <IntroTextWrapper>
                     <IntroHeader>I'm Fareed Askari. <span>Web Developer</span></IntroHeader>
                     <IntroPara>
-                        I'm a self-tuaght software designer / developer, mainly working / developing with / for [Shopify, Umbraco, Kentico] 
+                        I'm a self-tuaght software (designer/developer), mainly (working/developing) (with/for) [Shopify, Umbraco, Kentico] 
                     </IntroPara>
                     <MoreAboutMeButton to="/about">
                         <span>more about me</span>
