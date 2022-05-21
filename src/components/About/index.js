@@ -1,6 +1,19 @@
+import {
+    Container,
+    AboutMeHeader,
+    H1Header,
+    Span,
+    SpanResume
+} from './AboutElements';
+
 const About = () => {
     return (
-        <h1>This is about section</h1>
+        <Container>
+            <AboutMeHeader>
+                <H1Header>About <Span>Me</Span></H1Header>
+                <SpanResume>resume</SpanResume>
+            </AboutMeHeader>
+        </Container>
     )
 }
 
